@@ -3,12 +3,12 @@
   margin: 0;
 }
 body {
-    margin: 0;
-    padding: 0;
-    font-size: 13px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: #919191;
-    background-color: #232323;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #919191;
+  background-color: #232323;
 }
 .wrapper {
   width: 100%;
@@ -34,40 +34,88 @@ body {
 
 #hgroup h1,
 a {
-
   font-weight: normal;
   text-transform: none;
   text-decoration: none;
 }
-#hgroup h1 a{
-    font-size: 36px;
+#hgroup h1 a {
+  font-size: 36px;
 }
 h2 {
   font-size: 13px;
   font-weight: normal;
 }
+
 #header nav {
-  display: block;
   float: right;
   margin: 10px 0 0 0;
   padding: 20px 0;
-  color: #c0bab6;
   background: #232323;
 }
 #header nav ul {
   padding: 0 20px;
 }
-li {
-  list-style-type: none;
-  display: inline;
+#header nav ul li {
+  list-style: none;
+  display: inline-block;
   margin-right: 25px;
 }
-#header nav li a {
-  color: #c0bab6;
-  background: #232323;
+#header nav ul li a {
   text-transform: uppercase;
+  background: #232323;
 }
-
-.last{
-    margin-right: 0;
+#header nav li.last {
+  margin-right: 0;
+}
+#container {
+  width: 51%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+#slider {
+  margin: 0 0 30px 0;
+}
+.row2 {
+  color: #c0bab6;
+  background: white;
+}
+#slider img {
+  width: 100%;
+  height: 360px;
+}
+.one_third {
+  width: 31%;
+  display: block;
+  float: left;
+  margin: 0 30px 0 0;
+}
+#homepage {
+  overflow: auto;
+}
+#container #homepage #services article figure h2 {
+  font-weight: bold;
+  font-size: 14px;
+  font-style: italic;
+}
+#container #homepage #services article figure img {
+  margin: 0 0 15px 0;
+  padding: 4px;
+  border: 1px solid #d6d6d6;
+  width: 100%;
+}
+figcaption p {
+  margin: 12px 0;
+}
+#container #homepage {
+  line-height: 1.8em;
+}
+#container .more {
+  text-align: right;
+}
+.row2 a {
+  color: #ff9900;
+  background-color: #ffffff;
+}
+.lastbox{
+  margin-right: 0;
 }
